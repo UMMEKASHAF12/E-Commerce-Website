@@ -12,10 +12,11 @@ body {
 
     background-color: #F5F5F5;
     height: 30px;
+    width: 1020px;
 
     margin-top: -15px;
 }
-  
+
 
 .text {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -37,11 +38,13 @@ body {
 .location strong {
     color: black;
 }
-.location p{
+
+.location p {
     color: #666666;
 }
+
 /* Nav bar main*/
-.navbar{
+.navbar {
     height: 40px;
     background-color: rgb(255, 255, 255);
     margin-top: -18px;
@@ -49,46 +52,51 @@ body {
 
 }
 
-.logo h2{
-    
+.logo h2 {
+
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #0099ff;
     margin-left: 150px;
-   
-    
-    
+
+
+
 
 }
-.navbar input{
+
+.navbar input {
     width: 300px;
-    padding:6px;
+    padding: 6px;
     margin-left: 336px;
-    background-color:#F3F9FB;
+    background-color: #F3F9FB;
     border: none;
     color: #666666;
    position: absolute;
-            top: 38px;
-            left: 22px;
-   
-    
+    top: 30px;
+    left: 22px;
+
+
 }
-.signup p{
+
+.signup p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #666666;
-    position: absolute;
+    /* position: absolute;
     top: 24px;
-    right: 192px ;
-    
+    right: 192px; */
+    margin-left: 713px;
+    margin-top: -33px;
+   
 
 }
-.cart{
+
+.cart {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #666666;
-    position: absolute;
-    top: 26px;
-    right: 128px ;
-
+    margin-left: 856px;
+    margin-top: -40px;
+   
 }
+
 /*1*/
 .dropdown {
     position: relative;
@@ -96,10 +104,10 @@ body {
 }
 
 .dropbtn {
-    background-color: #0098db; 
+    background-color: #0098db;
     color: white;
     border: none;
-    border-radius: 20px; 
+    border-radius: 20px;
     padding: 8px 12px;
     font-size: 16px;
     font-weight: bold;
@@ -111,7 +119,7 @@ body {
 }
 
 .dropbtn::after {
-    content: "▼"; 
+    content: "▼";
     font-size: 10px;
     margin-left: 7px;
 }
@@ -151,10 +159,10 @@ body {
 }
 
 .dropbtnn {
-    background-color: #d9d7d7 ;
-    color: #333; 
-    border: 1px solid #d3ece9; 
-    border-radius: 20px; 
+    background-color: #d9d7d7;
+    color: #333;
+    border: 1px solid #d3ece9;
+    border-radius: 20px;
     padding: 8px 5px;
     font-size: 15px;
     font-weight: bold;
@@ -166,9 +174,11 @@ body {
 }
 
 .dropbtnn::after {
-    content: "▼"; /* Dropdown arrow */
+    content: "▼";
+    /* Dropdown arrow */
     font-size: 14px;
-    color:#008ECC; /* Light teal color */
+    color: #008ECC;
+    /* Light teal color */
     margin-left: 8px;
 }
 
@@ -184,7 +194,7 @@ body {
 }
 
 .dropdown-content2 a {
-    color:  rgb(65, 63, 63);
+    color: rgb(65, 63, 63);
     padding: 10px 16px;
     text-decoration: none;
     display: block;
@@ -206,10 +216,10 @@ body {
 }
 
 .dropbtn3 {
-    background-color: #d9d7d7 ;
-    color: #333; 
-    border: 1px solid #d3ece9; 
-    border-radius: 20px; 
+    background-color: #d9d7d7;
+    color: #333;
+    border: 1px solid #d3ece9;
+    border-radius: 20px;
     padding: 8px 5px;
     font-size: 15px;
     font-weight: bold;
@@ -221,9 +231,11 @@ body {
 }
 
 .dropbtn3::after {
-    content: "▼"; /* Dropdown arrow */
+    content: "▼";
+    /* Dropdown arrow */
     font-size: 14px;
-    color:#008ECC; /* Light teal color */
+    color: #008ECC;
+    /* Light teal color */
     margin-left: 8px;
 }
 
@@ -239,7 +251,7 @@ body {
 }
 
 .dropdown-content3 a {
-    color:  rgb(65, 63, 63);
+    color: rgb(65, 63, 63);
     padding: 10px 16px;
     text-decoration: none;
     display: block;
@@ -253,17 +265,18 @@ body {
 .dropdown3:hover .dropdown-content3 {
     display: block;
 }
+
 /*4*/
-.dropdown4{
+.dropdown4 {
     position: relative;
     display: inline-block;
 }
 
-.dropbtn4{
-    background-color: #d9d7d7 ;
-    color: #333; 
-    border: 1px solid #d3ece9; 
-    border-radius: 20px; 
+.dropbtn4 {
+    background-color: #d9d7d7;
+    color: #333;
+    border: 1px solid #d3ece9;
+    border-radius: 20px;
     padding: 8px 5px;
     font-size: 15px;
     font-weight: bold;
@@ -275,9 +288,11 @@ body {
 }
 
 .dropbtn4::after {
-    content: "▼"; /* Dropdown arrow */
+    content: "▼";
+    /* Dropdown arrow */
     font-size: 14px;
-    color:#008ECC; /* Light teal color */
+    color: #008ECC;
+    /* Light teal color */
     margin-left: 8px;
 }
 
@@ -293,7 +308,7 @@ body {
 }
 
 .dropdown-content4 a {
-    color:  rgb(65, 63, 63);
+    color: rgb(65, 63, 63);
     padding: 10px 16px;
     text-decoration: none;
     display: block;
@@ -307,17 +322,18 @@ body {
 .dropdown4:hover .dropdown-content3 {
     display: block;
 }
+
 /*5*/
-.dropdown5{
+.dropdown5 {
     position: relative;
     display: inline-block;
 }
 
-.dropbtn5{
-    background-color: #d9d7d7 ;
-    color: #333; 
-    border: 1px solid #d3ece9; 
-    border-radius: 20px; 
+.dropbtn5 {
+    background-color: #d9d7d7;
+    color: #333;
+    border: 1px solid #d3ece9;
+    border-radius: 20px;
     padding: 8px 5px;
     font-size: 15px;
     font-weight: bold;
@@ -329,9 +345,11 @@ body {
 }
 
 .dropbtn5::after {
-    content: "▼"; /* Dropdown arrow */
+    content: "▼";
+    /* Dropdown arrow */
     font-size: 14px;
-    color:#008ECC; /* Light teal color */
+    color: #008ECC;
+    /* Light teal color */
     margin-left: 8px;
 }
 
@@ -347,7 +365,7 @@ body {
 }
 
 .dropdown-content5 a {
-    color:  rgb(65, 63, 63);
+    color: rgb(65, 63, 63);
     padding: 10px 16px;
     text-decoration: none;
     display: block;
@@ -361,17 +379,18 @@ body {
 .dropdown5:hover .dropdown-content5 {
     display: block;
 }
+
 /*6*/
-.dropdown6{
+.dropdown6 {
     position: relative;
     display: inline-block;
 }
 
-.dropbtn6{
-    background-color: #d9d7d7 ;
-    color: #333; 
-    border: 1px solid #d3ece9; 
-    border-radius: 20px; 
+.dropbtn6 {
+    background-color: #d9d7d7;
+    color: #333;
+    border: 1px solid #d3ece9;
+    border-radius: 20px;
     padding: 8px 5px;
     font-size: 15px;
     font-weight: bold;
@@ -383,9 +402,11 @@ body {
 }
 
 .dropbtn6::after {
-    content: "▼"; /* Dropdown arrow */
+    content: "▼";
+    /* Dropdown arrow */
     font-size: 14px;
-    color:#008ECC; /* Light teal color */
+    color: #008ECC;
+    /* Light teal color */
     margin-left: 8px;
 }
 
@@ -401,7 +422,7 @@ body {
 }
 
 .dropdown-content6 a {
-    color:  rgb(65, 63, 63);
+    color: rgb(65, 63, 63);
     padding: 10px 16px;
     text-decoration: none;
     display: block;
@@ -415,85 +436,96 @@ body {
 .dropdown6:hover .dropdown-content6 {
     display: block;
 }
+
 /*banner*/
-.banner{
+.banner {
     background-color: #212844;
-    width:79%;
+    width: 790px;
     height: 250px;
-   margin-left: 95px;
-   border-radius: 20px;
-   position: absolute;
-  
-   margin-top: 18px;
+    margin-left: 95px;
+    border-radius: 20px;
+    position: absolute;
+
+    margin-top: 18px;
 }
-.deals h2{
-   font-family: Arial, Helvetica, sans-serif;
-   color: white;
-   margin-left: 60px;
-   margin-top: 32px;
-}
-.deals h1{
+
+.deals h2 {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    margin-left:51px;
+    margin-left: 60px;
+    margin-top: 32px;
+}
+
+.deals h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 51px;
     margin-top: 13px;
     line-height: 55px;
     font-size: 53px;
- }
- .deals h3{
+}
+
+.deals h3 {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    margin-left:56px;
+    margin-left: 56px;
     margin-top: -17px;
-    
- }
- .deals img{
+
+}
+
+.deals img {
     width: 230px;
     height: 230px;
     margin-left: 565px;
     margin-top: -178px;
- }
- /*phones*/
- .phones h2{
+}
+
+/*phones*/
+.phones h2 {
     font-family: Arial, Helvetica, sans-serif;
     color: #666666;
     margin-top: 300px;
     margin-left: 98px;
- }
- .phones b{
+}
+
+.phones b {
     color: #008ECC;
 
- }
+}
+
 /*phones card*/
-.container{
+.container {
     display: flex;
     gap: 7px;
 
 }
+
 .card1 {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
-    width:188px;
-    height:295px;
-    background-color:#F5F5F5;
+    width: 188px;
+    height: 295px;
+    background-color: #F5F5F5;
     margin-left: 102px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-radius: 20px;
-    
-    
-  }
-  .card1 img{
-    width:196px;
-    height:168px;
 
-  }
 
-  h2 {
+}
+
+.card1 img {
+    width: 196px;
+    height: 168px;
+
+}
+
+h2 {
     font-size: 18px;
     margin: 10px 0;
     margin-left: 10px;
 }
-h4{
+
+h4 {
     margin-left: 10px;
 }
 
@@ -518,39 +550,44 @@ h4{
     margin-top: 5px;
     margin-left: 10px;
 }
+
 .product-image {
     width: 100%;
     height: auto;
     border-radius: 8px;
 }
+
 .card1:hover {
-    box-shadow: 0 10px 30px 0 rgba(0,0,0,0.5);
-  }
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.5);
+}
+
 /*card2*/
 .card2 {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
-    width:188px;
-    height:295px;
-    background-color:#F5F5F5;
+    width: 188px;
+    height: 295px;
+    background-color: #F5F5F5;
     margin-left: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-radius: 20px;
-    
-    
-  }
-  .card2 img{
-    width:196px;
-    height:168px;
 
-  }
 
-  h2 {
+}
+
+.card2 img {
+    width: 196px;
+    height: 168px;
+
+}
+
+h2 {
     font-size: 18px;
     margin: 10px 0;
     margin-left: 10px;
 }
-h4{
+
+h4 {
     margin-left: 10px;
 }
 
@@ -575,39 +612,44 @@ h4{
     margin-top: 5px;
     margin-left: 10px;
 }
+
 .product-image {
     width: 100%;
     height: auto;
     border-radius: 8px;
 }
+
 .card2:hover {
-    box-shadow: 0 10px 30px 0 rgba(0,0,0,0.5);
-  }
-  /*card3*/
-  .card3 {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.5);
+}
+
+/*card3*/
+.card3 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
-    width:188px;
-    height:295px;
-    background-color:#F5F5F5;
+    width: 188px;
+    height: 295px;
+    background-color: #F5F5F5;
     margin-left: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-radius: 20px;
-    
-    
-  }
-  .card3 img{
-    width:196px;
-    height:168px;
 
-  }
 
-  h2 {
+}
+
+.card3 img {
+    width: 196px;
+    height: 168px;
+
+}
+
+h2 {
     font-size: 18px;
     margin: 10px 0;
     margin-left: 10px;
 }
-h4{
+
+h4 {
     margin-left: 10px;
 }
 
@@ -632,39 +674,44 @@ h4{
     margin-top: 5px;
     margin-left: 10px;
 }
+
 .product-image {
     width: 100%;
     height: auto;
     border-radius: 8px;
 }
+
 .card3:hover {
-    box-shadow: 0 10px 30px 0 rgba(0,0,0,0.5);
-  }
-  /*card4*/
-  .card4 {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.5);
+}
+
+/*card4*/
+.card4 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
-    width:188px;
-    height:295px;
-    background-color:#F5F5F5;
+    width: 188px;
+    height: 295px;
+    background-color: #F5F5F5;
     margin-left: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-radius: 20px;
-    
-    
-  }
-  .card4 img{
-    width:196px;
-    height:168px;
 
-  }
 
-  h2 {
+}
+
+.card4 img {
+    width: 196px;
+    height: 168px;
+
+}
+
+h2 {
     font-size: 18px;
     margin: 10px 0;
     margin-left: 10px;
 }
-h4{
+
+h4 {
     margin-left: 10px;
 }
 
@@ -689,130 +736,390 @@ h4{
     margin-top: 5px;
     margin-left: 10px;
 }
+
 .product-image {
     width: 100%;
     height: auto;
     border-radius: 8px;
 }
+
 .card4:hover {
-    box-shadow: 0 10px 30px 0 rgba(0,0,0,0.5);
-  }
-  /*top catogries*/
-  .top h2{
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.5);
+}
+
+/*top catogries*/
+.top h2 {
     font-family: Arial, Helvetica, sans-serif;
     color: #666666;
     margin-top: 44px;
     margin-left: 103px;
- }
- .top b{
+}
+
+.top b {
     color: #008ECC;
- }
- /*circle*/
- .circle{
+}
+
+/*circle*/
+.circle {
     width: 132px;
     height: 132px;
     border-radius: 60px;
     background-color: #f1f1f1;
     margin-left: 92px;
 
- }
- .circle img{
-
-    width:128px;
-    height:130px;
- }
- .circle :hover{
-    border-radius:60px ;
-    box-shadow: 0 10px 30px 0 rgba(0,0,0,0.5);
 }
-.circle1{
+
+.circle img {
+
+    width: 128px;
+    height: 130px;
+}
+
+.circle :hover {
+    border-radius: 60px;
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.5);
+}
+
+.circle1 {
     width: 132px;
     height: 132px;
     border-radius: 60px;
     background-color: #f1f1f1;
     margin-left: 50px;
 
- }
- .circle1 img{
+}
 
-    width:103px;
-    height:105px;
-    margin-top:15px ;
-    margin-left:15px ;
- }
- .circle1 :hover{
-    border-radius:60px ;
-    box-shadow: 0 10px 30px 0 rgba(0,0,0,0.5);
+.circle1 img {
+
+    width: 103px;
+    height: 105px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.circle1 :hover {
+    border-radius: 60px;
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.5);
 }
 
 
-.circle2{
+.circle2 {
     width: 132px;
     height: 132px;
     border-radius: 60px;
     background-color: #f1f1f1;
     margin-left: 50px;
 
- }
- .circle2 img{
-
-    width:111px;
-    height:105px;
-    margin-top:15px ;
-    margin-left:11px ;
- }
- .circle2 :hover{
-    border-radius:60px ;
-    box-shadow: 0 10px 30px 0 rgba(0,0,0,0.5);
 }
- 
-.circle3{
+
+.circle2 img {
+
+    width: 111px;
+    height: 105px;
+    margin-top: 15px;
+    margin-left: 11px;
+}
+
+.circle2 :hover {
+    border-radius: 60px;
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.5);
+}
+
+.circle3 {
     width: 132px;
     height: 132px;
     border-radius: 60px;
     background-color: #f1f1f1;
     margin-left: 50px;
 
- }
- .circle3 img{
-
-    width:111px;
-    height:105px;
-    margin-top:15px ;
-    margin-left:11px ;
- }
- .circle3:hover{
-    border-radius:60px ;
-    box-shadow: 0 10px 30px 0 rgba(0,0,0,0.5);
 }
-.containerc{
+
+.circle3 img {
+
+    width: 111px;
+    height: 105px;
+    margin-top: 15px;
+    margin-left: 11px;
+}
+
+.circle3:hover {
+    border-radius: 60px;
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.5);
+}
+
+.containerc {
     display: flex;
     gap: 50px;
 }
+
 /*electicbrands banner*/
-.electronic h2{
+.electronic h2 {
     font-family: Arial, Helvetica, sans-serif;
     color: #666666;
     margin-top: 44px;
     margin-left: 103px;
- }
- .electronic b{
+}
+
+.electronic b {
     color: #008ECC;
- }
- .greybanner{
-    
-width: 389px;
-height: 207px;
-background-color: #414141;
-margin-left: 98px;
-border-radius: 20px;
- }
+}
 
- 
- 
+.greybanner {
+
+    width: 389px;
+    height: 207px;
+    background-color: #414141;
+    margin-left: 98px;
+    border-radius: 20px;
+}
+
+.greybanner img {
+    width: 440px;
+    height: 250px;
+    margin-left: 100px;
+    margin-top: -14px;
+}
+
+.iphone h4 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: -96px;
+    color: white;
+
+}
+
+.iphone h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: -135px;
+    color: white;
+
+}
+
+.iphone img {
+    width: 101.2px;
+    height: 71.5px;
+    margin-left: -22px;
+}
+
+/*YELLOW BANNER*/
+.ads {
+    display: flex;
+    gap: 40px;
+}
+
+.yellowbanner {
+    width: 389px;
+    height: 207px;
+    background-color: #F6DE8D;
+    border-radius: 20px;
+
+}
 
 
-  
+.yellowbanner img {
+    width: 175px;
+    height: 185px;
+    margin-left: 235px;
+}
+
+.realme h4 {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: -40px;
+}
+
+.realme h2 {
+    margin-top: -100px;
+    color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.realme h1 {
+    background-color: #FFC915;
+    margin-top: -95px;
+    color: white;
+}
+
+/*fruits column*/
+.daily {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666666;
+    margin-top: 44px;
+    margin-left: 103px;
+
+}
+
+.daily b {
+    color: #008ECC;
+}
+
+.bx img {
+    width: 183px;
+    height: 122px;
+}
+
+.bx {
+    background-color: #F5F5F5;
+    width: 187px;
+    height: 208px;
+    border-radius: 20px;
+    margin-left: 95px;
+}
+
+.bx p {
+    color: #666666;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    margin-left: 20px;
+
+}
+
+.bx h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #222222;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+/*2*/
+.bx2 img {
+    width: 183px;
+    height: 122px;
+}
+
+.bx2 {
+    background-color: #F5F5F5;
+    width: 187px;
+    height: 208px;
+    border-radius: 20px;
+    margin-left:25px;
+}
+
+.bx2 p {
+    color: #666666;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    margin-left: 20px;
+
+}
+
+.bx2 h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #222222;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.fruits{
+    display: flex;
+   
+}
+/*3*/
+.bx3 img {
+    width: 183px;
+    height: 122px;
+}
+
+.bx3 {
+    background-color: #F5F5F5;
+    width: 187px;
+    height: 208px;
+    border-radius: 20px;
+    margin-left:22px;
+}
+
+.bx3 p {
+    color: #666666;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    margin-left: 20px;
+
+}
+
+.bx3 h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #222222;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+/*4*/
+.bx4 img {
+    width: 183px;
+    height: 122px;
+}
+
+.bx4 {
+    background-color: #F5F5F5;
+    width: 187px;
+    height: 208px;
+    border-radius: 20px;
+    margin-left:30px;
+}
+
+.bx4 p {
+    color: #666666;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    margin-left: 20px;
+
+}
+
+.bx4 h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #222222;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+/*footer*/
+.footer {
+    background-color: #008cdd;
+    color: white;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 55px;
+    width: 1000px;
+}
+.footer div {
+    flex: 1;
+    min-width: 250px;
+}
+.footer h3 {
+    margin-bottom: 10px;
+}
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+.footer ul li {
+    margin-bottom: 8px;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.app-links img {
+    width: 120px;
+    margin-right: 10px;
+}
+.copyright {
+    text-align: center;
+    padding: 10px;
+    background-color: #007bbd;
+    color: white;
+    width: 1000px;
+}
+
+
+
+
+
+
+
+
+
+
 /*media query*/
 @media (max-width: 768px) {
     .navbar {
@@ -820,8 +1127,9 @@ border-radius: 20px;
     }
 
     .navbar input {
-        width: 90%;
-        margin-left: 5%;
+        width: 112%;
+        margin-left: 281px;
+        margin-top: 1px;
     }
 
     .dropbtn {
@@ -841,8 +1149,9 @@ border-radius: 20px;
 
 @media (max-width: 380px) {
     .navbar input {
-        width: 50%;
-        margin-left: 0;
+        width: 77%;
+        margin-left: 281px;
+        margin-top: 6px;
     }
 
     .dropbtn {
@@ -850,7 +1159,7 @@ border-radius: 20px;
     }
 
     .banner {
-        height: 100px;
+        height: 187px;
         margin-left: 50px;
     }
 
@@ -858,11 +1167,18 @@ border-radius: 20px;
         font-size: 30px;
     }
 
-    .deals h2, .deals h3 {
+    .deals h2,
+    .deals h3 {
         font-size: 18px;
     }
 
     .phones h2 {
         font-size: 18px;
     }
+    @media(max-width300px){
+   .footer{
+    width: 1000px;
+
+   }
+  
 }
